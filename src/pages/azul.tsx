@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import styles from '../styles/Azul.module.scss'
 
 export default function Azul() {
@@ -12,21 +13,26 @@ export default function Azul() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <section>
+      {/* <section>
         <div className={styles.shortInfo}>
-          <img src="/azul-logo.svg" alt="Azul by Gil Vilarezz" />
+          <Image
+            width="200px"
+            height="200px"
+            src="/azul-logo.svg"
+            alt="Azul by Gil Vilarezz"
+          />
           <p>Tracklist</p>
         </div>
 
         <div className={styles.cards}>
           <a href={streamingPlatformsLinks} className={styles.card}>
-            <img src="/Card.png" alt="" />
+            <Image width="150px" height="200px" src="/Card.png" alt="" />
           </a>
           <a href={streamingPlatformsLinks} className={styles.card}>
-            <img src="/Card-1.png" alt="" />
+            <Image width="200px" height="200px" src="/Card-1.png" alt="" />
           </a>
           <a href={streamingPlatformsLinks} className={styles.card}>
-            <img src="/Card-2.png" alt="" />
+            <Image width="200px" height="200px" src="/Card-2.png" alt="" />
           </a>
         </div>
 
@@ -38,7 +44,7 @@ export default function Azul() {
             CLICA PARA VIAJAR 🚀
           </a>
         </div>
-      </section>
+      </section> */}
     </div>
   )
 }
