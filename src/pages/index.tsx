@@ -18,7 +18,7 @@ export default function Home() {
 export const getServerSideProps: GetServerSideProps = async () => {
   return {
     redirect: {
-      destination: 'https://ffm.bio/vilarezz',
+      destination: 'https://youtu.be/aNvXOeCEfdA',
       permanent: false
     },
     props: {}
